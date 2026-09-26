@@ -1,0 +1,457 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CardioCare AI</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/script.js'%}"></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+
+        <div class="logo">
+            <span class="heart-icon">♡</span>
+            <span>CardioCare AI</span>
+        </div>
+
+        <nav>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'features' %}">Features</a>
+            <a href="{% url 'information' %}">Information</a>
+            <a href="{% url 'prediction' %}">Prediction Tool</a>
+            <a href="{% url 'resources' %}">Resources</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <span class="hero-label">❤️ AI FOR HEART HEALTH AWARENESS</span>
+
+            <h1>
+                Understand Your Heart Health
+                <br>
+                with <span>CardioCare AI</span>
+            </h1>
+
+            <p>
+                Explore your cardiovascular health through an
+                AI-based educational assessment designed to make
+                heart health information easier to understand.
+            </p>
+
+            <div class="hero-buttons">
+
+    <a href="#why-cardio" class="predict-button">
+        Explore CardioCare AI ↓
+    </a>
+
+    <a href="#how-it-works" class="secondary-button">
+        See How It Works ↓
+    </a>
+
+</div>
+
+            <div class="hero-trust">
+                <span>✓ Simple</span>
+                <span>✓ AI-Based</span>
+                <span>✓ Educational</span>
+            </div>
+
+        </div>
+
+
+        <div class="heart-image">
+
+            <div class="heart-glow"></div>
+
+            <img src="{% static 'images/heart.png' %}"
+                 alt="Heart Illustration">
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HEART SNAPSHOT ================= -->
+
+    <section class="heart-snapshot">
+
+        <div class="snapshot-heading">
+
+            <span class="section-label">HEART HEALTH SNAPSHOT</span>
+
+            <h2>Your Heart Deserves Attention</h2>
+
+            <p>
+                Your heart works continuously to keep your body supplied
+                with blood and oxygen. Understanding important health
+                indicators is one step toward better awareness.
+            </p>
+
+        </div>
+
+
+        <div class="snapshot-cards">
+
+            <div class="snapshot-card">
+                <div class="snapshot-icon">❤️</div>
+                <h3>Heart Function</h3>
+                <p>
+                    The heart continuously pumps blood throughout
+                    the body to support vital organs.
+                </p>
+            </div>
+
+            <div class="snapshot-card">
+                <div class="snapshot-icon">🩺</div>
+                <h3>Health Indicators</h3>
+                <p>
+                    Blood pressure, cholesterol and other measurements
+                    can provide useful health information.
+                </p>
+            </div>
+
+            <div class="snapshot-card">
+                <div class="snapshot-icon">🏃</div>
+                <h3>Healthy Lifestyle</h3>
+                <p>
+                    Regular activity and healthy lifestyle choices
+                    can support cardiovascular wellness.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= WHY CARDIOCARE ================= -->
+
+    <section class="why-section" id="why-cardio">
+
+        <div class="why-image">
+
+            <div class="heart-circle">
+                ❤️
+            </div>
+
+        </div>
+
+
+        <div class="why-content">
+
+            <span class="section-label">WHY CARDIOCARE AI?</span>
+
+            <h2>
+                Turning Health Information
+                Into Meaningful Awareness
+            </h2>
+
+            <p>
+                CardioCare AI combines a user-friendly health assessment
+                with machine learning to help users explore potential
+                cardiovascular risk.
+            </p>
+
+            <p>
+                Instead of presenting complicated technical information,
+                the platform provides a simple assessment that is easier
+                to understand.
+            </p>
+
+
+            <div class="why-points">
+
+                <div>
+                    <span>✓</span>
+                    <p>Simple health information input</p>
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    <p>Machine learning based analysis</p>
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    <p>Easy-to-understand assessment result</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HOW IT WORKS ================= -->
+
+    <section class="how-section" id="how-it-works">
+
+        <div class="section-heading">
+
+            <span class="section-label">HOW IT WORKS</span>
+
+            <h2>From Health Information to Assessment</h2>
+
+            <p>
+                CardioCare AI keeps the assessment process simple.
+            </p>
+
+        </div>
+
+
+        <div class="process-container">
+
+            <div class="process-card">
+
+                <div class="process-number">01</div>
+
+                <div class="process-icon">📝</div>
+
+                <h3>Enter Your Details</h3>
+
+                <p>
+                    Provide selected personal and health information
+                    through the assessment form.
+                </p>
+
+            </div>
+
+
+            <div class="process-line">→</div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">02</div>
+
+                <div class="process-icon">🤖</div>
+
+                <h3>AI Analysis</h3>
+
+                <p>
+                    The trained machine learning model processes the
+                    information provided during the assessment.
+                </p>
+
+            </div>
+
+
+            <div class="process-line">→</div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">03</div>
+
+                <div class="process-icon">📊</div>
+
+                <h3>View Your Result</h3>
+
+                <p>
+                    Receive a simple educational assessment of the
+                    potential heart disease risk.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= WHAT WE LOOK AT ================= -->
+
+    <section class="indicators-section">
+
+        <div class="section-heading">
+
+            <span class="section-label">HEALTH INDICATORS</span>
+
+            <h2>What Does the Assessment Look At?</h2>
+
+            <p>
+                The assessment considers selected health indicators
+                that are commonly used in cardiovascular analysis.
+            </p>
+
+        </div>
+
+
+        <div class="indicator-grid">
+
+            <div class="indicator-item">
+                <span>01</span>
+                <div>
+                    <h3>Age</h3>
+                    <p>Age is an important factor considered in cardiovascular risk assessment.</p>
+                </div>
+            </div>
+
+            <div class="indicator-item">
+                <span>02</span>
+                <div>
+                    <h3>Blood Pressure</h3>
+                    <p>Resting blood pressure provides information about cardiovascular health.</p>
+                </div>
+            </div>
+
+            <div class="indicator-item">
+                <span>03</span>
+                <div>
+                    <h3>Cholesterol</h3>
+                    <p>Cholesterol level is one of the health measurements considered by the model.</p>
+                </div>
+            </div>
+
+            <div class="indicator-item">
+                <span>04</span>
+                <div>
+                    <h3>Heart Rate</h3>
+                    <p>Maximum heart rate during exercise is included in the assessment.</p>
+                </div>
+            </div>
+
+            <div class="indicator-item">
+                <span>05</span>
+                <div>
+                    <h3>Blood Sugar</h3>
+                    <p>Fasting blood sugar is another health indicator used by the assessment.</p>
+                </div>
+            </div>
+
+            <div class="indicator-item">
+                <span>06</span>
+                <div>
+                    <h3>Exercise Response</h3>
+                    <p>Exercise-related indicators provide additional information for analysis.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HEALTHY HEART HABITS ================= -->
+
+    <section class="habits-section">
+
+        <div class="section-heading">
+
+            <span class="section-label">HEART HEALTH</span>
+
+            <h2>Small Habits Can Make a Difference</h2>
+
+            <p>
+                Heart health is supported by consistent healthy lifestyle
+                choices and regular attention to important health indicators.
+            </p>
+
+        </div>
+
+
+        <div class="habits-container">
+
+            <div class="habit-card">
+                <div>🥗</div>
+                <h3>Balanced Nutrition</h3>
+                <p>
+                    Choose a balanced diet with a variety of nutritious foods.
+                </p>
+            </div>
+
+            <div class="habit-card">
+                <div>🏃</div>
+                <h3>Stay Active</h3>
+                <p>
+                    Include suitable physical activity in your regular routine.
+                </p>
+            </div>
+
+            <div class="habit-card">
+                <div>😴</div>
+                <h3>Rest Well</h3>
+                <p>
+                    Adequate sleep and healthy routines support overall wellness.
+                </p>
+            </div>
+
+            <div class="habit-card">
+                <div>🩺</div>
+                <h3>Monitor Your Health</h3>
+                <p>
+                    Regularly pay attention to important health measurements.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FINAL CTA ================= -->
+
+    <section class="home-cta">
+
+        <div>
+
+            <span class="section-label">TAKE THE NEXT STEP</span>
+
+            <h2>Curious About Your Heart Health?</h2>
+
+            <p>
+                Explore your potential cardiovascular risk with
+                the CardioCare AI educational assessment.
+            </p>
+
+        </div>
+
+
+        <a href="{% url 'prediction' %}" class="cta-button">
+            Start Assessment →
+        </a>
+
+    </section>
+
+
+    <!-- ================= DISCLAIMER ================= -->
+
+    <section class="home-disclaimer">
+
+        <p>
+            ⚠️ <strong>Important:</strong>
+            CardioCare AI is an educational project and does not provide
+            a medical diagnosis. For medical concerns, diagnosis or
+            treatment, consult a qualified healthcare professional.
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 CardioCare AI | Educational Heart Health Assessment
+        </p>
+
+    </footer>
+
+</body>
+</html>

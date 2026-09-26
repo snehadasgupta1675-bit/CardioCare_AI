@@ -1,0 +1,176 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Features | CardioCare AI</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+
+        <div class="logo">
+            <span class="heart-icon">♡</span>
+            <span>CardioCare AI</span>
+        </div>
+
+        <nav>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'features' %}">Features</a>
+            <a href="{% url 'information' %}">Information</a>
+            <a href="{% url 'prediction' %}">Prediction Tool</a>
+            <a href="{% url 'resources' %}">Resources</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Features Page -->
+    <main class="standalone-page">
+
+        <div class="page-heading">
+            <h1>❤️ CardioCare AI Features</h1>
+
+            <p>
+                Explore the key features designed to help users
+                understand cardiovascular health and potential risk.
+            </p>
+        </div>
+
+
+        <div class="feature-page-container">
+
+            <div class="feature-page-card">
+
+                <div class="feature-icon">❤️</div>
+
+                <h2>Heart Risk Assessment</h2>
+
+                <p>
+                    Enter important health information such as age,
+                    blood pressure, cholesterol and other indicators
+                    to receive an AI-based risk assessment.
+                </p>
+
+            </div>
+
+
+            <div class="feature-page-card">
+
+                <div class="feature-icon">🤖</div>
+
+                <h2>AI-Based Analysis</h2>
+
+                <p>
+                    CardioCare AI uses a trained machine learning model
+                    to analyze the health information provided by the user.
+                </p>
+
+            </div>
+
+
+            <div class="feature-page-card">
+
+                <div class="feature-icon">📊</div>
+
+                <h2>Simple Results</h2>
+
+                <p>
+                    The assessment result is presented in a simple format
+                    so that users can easily understand the outcome.
+                </p>
+
+            </div>
+
+
+            <div class="feature-page-card">
+
+                <div class="feature-icon">💡</div>
+
+                <h2>Health Awareness</h2>
+
+                <p>
+                    The platform helps users become more aware of common
+                    cardiovascular risk factors and the importance of
+                    maintaining a healthy lifestyle.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="feature-page-button">
+    <a href="#why-choose" class="predict-button">
+        Why Choose CardioCare AI? →
+    </a>
+</div>
+
+<section class="why-choose-section" id="why-choose">
+
+    <div class="page-heading">
+        <span class="section-label">WHY CHOOSE CARDIOCARE AI?</span>
+
+        <h2>Simple Technology for Better Heart Health Awareness</h2>
+
+        <p>
+            CardioCare AI brings together health information and
+            machine learning in a simple platform designed to help
+            users understand cardiovascular risk more easily.
+        </p>
+    </div>
+
+    <div class="why-choose-container">
+
+        <div class="why-choose-card">
+            <div class="feature-icon">💗</div>
+            <h3>User-Friendly</h3>
+            <p>
+                The platform presents health information and
+                assessment results in a simple and easy-to-understand way.
+            </p>
+        </div>
+
+        <div class="why-choose-card">
+            <div class="feature-icon">🤖</div>
+            <h3>Machine Learning</h3>
+            <p>
+                A trained machine learning model analyzes the
+                selected health information provided by the user.
+            </p>
+        </div>
+
+        <div class="why-choose-card">
+    <div class="feature-icon">⚡</div>
+    <h3>Instant Processing</h3>
+    <p>
+        The system processes the submitted information
+        automatically, reducing the need for manual calculation or evaluation.
+    </p>
+</div>
+
+    </div>
+
+</section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 CardioCare AI | Educational Heart Health Assessment
+        </p>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Resources | CardioCare AI</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+
+        <div class="logo">
+            <span class="heart-icon">♡</span>
+            <span>CardioCare AI</span>
+        </div>
+
+        <nav>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'features' %}">Features</a>
+            <a href="{% url 'information' %}">Information</a>
+            <a href="{% url 'prediction' %}">Prediction Tool</a>
+            <a href="{% url 'resources' %}">Resources</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Resources Page -->
+    <main class="standalone-page">
+
+        <div class="page-heading">
+
+            <h1>📚 Heart Health Resources</h1>
+
+            <p>
+                Explore useful information and simple practices
+                that can help you learn more about cardiovascular health.
+            </p>
+
+        </div>
+
+
+        <div class="information-container">
+
+            <div class="information-card">
+
+                <h2>❤️ Know Your Risk Factors</h2>
+
+                <p>
+                    Learn about common cardiovascular risk factors such
+                    as age, blood pressure, cholesterol, blood sugar,
+                    physical inactivity and smoking.
+                </p>
+
+            </div>
+
+
+            <div class="information-card">
+
+                <h2>🥗 Healthy Eating</h2>
+
+                <p>
+                    A balanced diet containing vegetables, fruits,
+                    whole grains and appropriate sources of protein
+                    can support overall heart health.
+                </p>
+
+            </div>
+
+
+            <div class="information-card">
+
+                <h2>🏃 Stay Physically Active</h2>
+
+                <p>
+                    Regular physical activity can support cardiovascular
+                    fitness and contribute to a healthier lifestyle.
+                    Choose activities that are appropriate for your
+                    fitness level.
+                </p>
+
+            </div>
+
+
+            <div class="information-card">
+
+                <h2>😴 Healthy Lifestyle</h2>
+
+                <p>
+                    Getting adequate sleep, managing stress and avoiding
+                    tobacco can contribute to better overall cardiovascular
+                    health.
+                </p>
+
+            </div>
+
+
+            <div class="information-card">
+
+                <h2>🩺 Regular Health Checkups</h2>
+
+                <p>
+                    Regular health checkups can help monitor important
+                    measurements such as blood pressure, cholesterol
+                    and blood sugar.
+                </p>
+
+            </div>
+
+
+            <div class="information-card warning-card">
+
+                <h2>⚠️ When to Seek Medical Help</h2>
+
+                <p>
+                    If you experience concerning symptoms such as chest
+                    pain, severe breathing difficulty or fainting, seek
+                    appropriate medical attention promptly.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="feature-page-button">
+
+    <a href="#" class="predict-button">
+        Back to Top ↑
+    </a>
+
+    <a href="{% url 'home' %}" class="secondary-button">
+        Back to Home →
+    </a>
+
+</div>
+
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 CardioCare AI | Educational Heart Health Assessment
+        </p>
+
+    </footer>
+
+</body>
+</html>

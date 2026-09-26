@@ -1,0 +1,151 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Heart Health Information | CardioCare AI</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+
+        <div class="logo">
+            <span class="heart-icon">♡</span>
+            <span>CardioCare AI</span>
+        </div>
+
+        <nav>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'features' %}">Features</a>
+            <a href="{% url 'information' %}">Information</a>
+            <a href="{% url 'prediction' %}">Prediction Tool</a>
+            <a href="{% url 'resources' %}">Resources</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Information Page -->
+    <main class="standalone-page">
+
+        <div class="page-heading">
+
+            <h1>❤️ About Heart Health</h1>
+
+            <p>
+                Understanding heart health is an important step toward
+                maintaining a healthy lifestyle and becoming aware of
+                cardiovascular risk factors.
+            </p>
+
+        </div>
+
+
+        <div class="information-container">
+
+            <div class="information-card">
+
+                <h2>What is Heart Disease?</h2>
+
+                <p>
+                    Heart disease refers to conditions that affect the
+                    heart and its normal functioning. Some cardiovascular
+                    conditions can develop gradually and may be influenced
+                    by different health and lifestyle factors.
+                </p>
+
+            </div>
+
+
+            <div class="information-card">
+
+                <h2>❤️ Common Risk Factors</h2>
+
+                <p>
+                    Several factors may be associated with cardiovascular
+                    risk, including age, high blood pressure, cholesterol
+                    levels, blood sugar, physical inactivity, smoking,
+                    obesity and family history.
+                </p>
+
+            </div>
+
+
+            <div class="information-card">
+
+                <h2>🩺 Important Health Indicators</h2>
+
+                <p>
+                    Health measurements such as blood pressure,
+                    cholesterol, resting heart rate and exercise response
+                    can provide useful information when assessing
+                    cardiovascular health.
+                </p>
+
+            </div>
+
+
+            <div class="information-card">
+
+                <h2>💗 Healthy Heart Habits</h2>
+
+                <p>
+                    Regular physical activity, balanced nutrition,
+                    adequate sleep, avoiding tobacco and maintaining
+                    healthy blood pressure and cholesterol levels can
+                    support overall heart health.
+                </p>
+
+            </div>
+
+
+            <div class="information-card">
+
+                <h2>🤖 How CardioCare AI Helps</h2>
+
+                <p>
+                    CardioCare AI uses selected health information and a
+                    machine learning model to provide an educational
+                    assessment of potential heart disease risk.
+                </p>
+
+            </div>
+
+
+            <div class="information-card warning-card">
+
+                <h2>⚠️ Important Note</h2>
+
+                <p>
+                    CardioCare AI is an educational project and does not
+                    provide a medical diagnosis. A qualified healthcare
+                    professional should be consulted for medical advice,
+                    diagnosis or treatment.
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 CardioCare AI | Educational Heart Health Assessment
+        </p>
+
+    </footer>
+
+</body>
+</html>
